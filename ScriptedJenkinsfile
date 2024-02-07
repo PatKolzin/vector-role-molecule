@@ -1,4 +1,4 @@
-node("agent-01"){
+node("agent"){
     stage("Git checkout"){
         git url: 'https://github.com/PatKolzin/vector-role-molecule.git'
     }
